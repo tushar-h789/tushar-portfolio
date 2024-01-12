@@ -2,7 +2,7 @@
 import About from "./components/About/About"
 import Banner from "./components/Banner/Banner"
 import Navbar from "./components/Navbar/Navbar"
-import Test from "./components/Test"
+import Service from "./components/Service/Service"
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
       <Navbar/>
       <Banner/>
       <About/>
-      <Test/>
+      <Service/>
     </div>
   )
 }
