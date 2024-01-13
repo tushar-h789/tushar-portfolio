@@ -1,33 +1,35 @@
+import { NavLink } from "react-router-dom";
+
 const Navbar = () => {
   const navItems = (
     <>
       <li>
-        <a>Home</a>
+        <NavLink to='/'>Home</NavLink>
       </li>
       <li>
-        <a>About</a>
+      <NavLink to='/'>About</NavLink>
       </li>
       <li>
-        <a>Service</a>
+        <NavLink to='/'>Service</NavLink>
       </li>
       <li>
-        <a>Portfolio</a>
+        <NavLink to='/'>Portfolio</NavLink>
       </li>
       <li>
-        <a>Pricing</a>
+        <NavLink to='/'>Pricing</NavLink>
       </li>
       <li>
-        <a>Blog</a>
+        <NavLink to='/'>Blog</NavLink>
       </li>
       <li>
-        <a>Contact</a>
+        <NavLink to='/'>Contact</NavLink>
       </li>
     </>
   );
 
   return (
     <>
-      <div className=" bg-primary text-white fixed w-full bg-opacity-40">
+      <div className=" bg-primary text-white fixed w-full bg-opacity-50 z-10">
         <div className="max-w-screen-xl mx-auto navbar">
           <div className="navbar-start">
             <div className="dropdown">
